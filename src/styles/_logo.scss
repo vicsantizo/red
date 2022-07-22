@@ -1,0 +1,11 @@
+.logo {
+    &__text {
+        font-size: 1.5rem;
+    }
+
+    &__img {
+        &--invert {
+            filter: invert(100%);
+        }
+    }
+}
